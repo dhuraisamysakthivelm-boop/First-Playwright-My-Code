@@ -5,7 +5,7 @@ test.describe('Get By Role Locators Test Suite', () => {
         await mp.getByRoleLocators.navigateToUrl();
         await mp.getByRoleLocators.clickOnButton();
         await mp.getByRoleLocators.clickOnLinks();
-        await mp.getByRoleLocators.enterTextInInputField(user.userName);
+        await mp.getByRoleLocators.enterTextInInputField(user.Field1);
         await mp.getByRoleLocators.clickOnCheckBox();
         await mp.getByRoleLocators.verifyTextIngetByRole();
     });
@@ -19,7 +19,7 @@ test.describe('Get By Role Locators Test Suite', () => {
 
     test('Get By Label Locators Test Case', async ({ mp, user }) => {
         await mp.getByLabelLocators.navigateToUrl3();
-        await mp.getByLabelLocators.fillInputLabelElements(user.email, user.password, user.age);
+        await mp.getByLabelLocators.fillInputLabelElements(user.Field2, user.Field3, user.Field4);
         await mp.getByLabelLocators.clickCheckBoxElement();
     });
 });
