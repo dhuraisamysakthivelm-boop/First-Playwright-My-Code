@@ -1,6 +1,6 @@
 {
-    "userName" : "Dhuraisamy S",
-    "email" : "dhuraisamy.sakthivelm@gmail.com",
-    "password" : "securepassword",
-    "age" : "30"
+    "Field1" : "Dhuraisamy S",
+    "Field2" : "dhuraisamy.sakthivelm@gmail.com",
+    "Field3" : "securepassword",
+    "Field4" : "30"
 }
