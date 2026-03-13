@@ -17,7 +17,7 @@ test.describe('Get By Role Locators Test Suite', () => {
         await mp.getByTextLocators.clickButtonElement();
     });
 
-    test.only('Get By Label Locators Test Case', async ({ mp, user }) => {
+    test('Get By Label Locators Test Case', async ({ mp, user }) => {
         await mp.getByLabelLocators.navigateToUrl3();
         await mp.getByLabelLocators.fillInputLabelElements(user.email, user.password, user.age);
         await mp.getByLabelLocators.clickCheckBoxElement();
